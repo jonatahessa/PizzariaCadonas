@@ -30,9 +30,25 @@
                       <select id="select-tipo" class="form-control" name="tipo">
                           <option value="PIZZA" ${produto.tipo == 'PIZZA' ? 'selected' : ''}>Pizza</option>
                           <option value="DOCE" ${produto.tipo == 'DOCE' ? 'selected' : ''}>Pizza Doce</option>
-                          <option value="PROMOCAO" ${produto.tipo == 'PROMOCAO' ? 'selected' : ''}>Promoção</option>
+                          <option value="PRATO" ${produto.tipo == 'PRATO' ? 'selected' : ''}>Prato</option>
                       </select>
                   </div>
+
+                  <div class="form-group" id="sub-tipo">
+                      <label for="tipoProduto">Tipo do Prato</label>
+                      <select id="select-subtipo" class="form-control" name="subtipo">
+                          <option value="DODIA" ${produto.subtipo == 'DODIA' ? 'selected' : ''}>Pratos do Dia</option>
+                          <option value="MASSA" ${produto.subtipo == 'MASSA' ? 'selected' : ''}>Massas</option>
+                          <option value="MUQUECA" ${produto.subtipo == 'MUQUECA' ? 'selected' : ''}>Muquecas</option>
+                          <option value="PEIXADA" ${produto.subtipo == 'PEIXADA' ? 'selected' : ''}>Peixadas</option>
+                          <option value="CARNE" ${produto.subtipo == 'CARNE' ? 'selected' : ''}>Carnes</option>
+                          <option value="FRANGO" ${produto.subtipo == 'FRANGO' ? 'selected' : ''}>Frangos</option>
+                          <option value="CARNEASSADA" ${produto.subtipo == 'CARNEASSADA' ? 'selected' : ''}>Carnes Assadas</option>
+                          <option value="TODODIA" ${produto.subtipo == 'TODODIA' ? 'selected' : ''}>Todo Dia</option>
+                      </select>
+                  </div>
+
+
 
                   <div id="nome" class="form-group">
                       <label for="nomeProduto">Nome</label>
@@ -49,10 +65,10 @@
                       <input class="form-control" type="text" value="${produto.preco}" name="preco"/>
                   </div>
 
-                  <div id="broto" class="form-group">
+                  <!--<div id="broto" class="form-group">
                       <label for="">Broto</label>
                       <input class="form-control" type="text" value="${produto.precoBroto}" name="precoBroto"/>
-                  </div>
+                  </div>-->
 
                   <div class="form-inline">
                     <div class="col-6">

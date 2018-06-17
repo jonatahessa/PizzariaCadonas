@@ -1,5 +1,5 @@
 body {
-    background: url(../_imagens/background.jpg) center center no-repeat fixed;
+    background: url(../_imagens/background.png) center center no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,26 +8,26 @@ body {
 
 @media (min-width: 770px) {
 
-  #menu-desktop {
-      top: 0;
-      width: 100%;
-      overflow: hidden;
-      box-sizing: border-box;
-      margin-bottom: 20px;
-      background: #FFFFFF;
-      opacity: 0.9;
-  }
+    #menu-desktop {
+        top: 0;
+        width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        background: #FFFFFF;
+        opacity: 0.9;
+    }
 
-  .inside-header {
-      max-width: 900px;
-      padding: 15px 30px;
-      overflow: hidden;
-      box-sizing: border-box;
-  }
+    .inside-header {
+        max-width: 900px;
+        padding: 15px 30px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
 
     #menu-desktop img {
-      margin: 0 auto;
-  }
+        margin: 0 auto;
+    }
 
     .inside-header nav a {
         display: inline-block;
@@ -48,65 +48,81 @@ body {
     }
 
     .padded {
-      padding-top: 80px;
+        padding-top: 80px;
     }
 
     #menu-mobile {
-      display: none;
+        display: none;
     }
 
     .menu-top {
-      position: fixed;
-      z-index: 150;
+        position: fixed;
+        z-index: 150;
     }
 }
 
 @media (max-width: 769px) {
+  *, *:before, *:after {box-sizing:  border-box !important;}
+
+  .painel-pratos {
+      -moz-column-width: 100em;
+      -webkit-column-width: 100em;
+      -moz-column-gap: 1em;
+      -webkit-column-gap: 1em;
+  }
+
+  .menu-category {
+      display: inline-block;
+      margin: 0.25rem;
+      padding: 1rem;
+      width: 100%;
+  }
+  
     .alinha {
-      text-align: center;
+        text-align: center;
     }
 
     #menu-desktop {
-      display: none;
+        display: none;
     }
 
     .padded {
-      padding-top: 120px;
+        padding-top: 120px;
     }
 
     #menu-mobile {
-      background-color: #FFFFFF;
-      position: fixed;
-      opacity: 0.9;
-      z-index: 150;
+        background-color: #FFFFFF;
+        position: fixed;
+        opacity: 0.9;
+        z-index: 150;
     }
 
     .menu-button {
-      margin: 10px;
-      background-color: #FFFFFF;
+        margin: 10px;
+        background-color: #FFFFFF;
     }
 }
 
 .botoes-cardapio {
-  background-color: transparent;
-  border: none;
-  margin-top: 50px;
+    background-color: transparent;
+    border: none;
+    margin-top: 50px;
 }
 
 #inicio {
-  padding-top: 80px;
+    padding-top: 80px;
 }
 
 .fonte-acme {
-  font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif;
 }
 
 .fonte-lobster {
-  font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 .fonte-mark {
-  font-family: 'Marck Script', cursive;
+    font-family: 'Marck Script', cursive;
 }
 
 .backgrounded {
@@ -115,34 +131,34 @@ body {
 }
 
 .paineis {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .cardapios {
-  list-style: none;
+    list-style: none;
 }
 
 .titulopreco {
-  font-family: 'Lato', sans-serif;
-  clear: both;
+    font-family: 'Lato', sans-serif;
+    clear: both;
 }
 
 .titulo {
-  color: red;
-  float: left;
+    color: red;
+    float: left;
 }
 
 .preco {
-  color: green;
-  float: right;
-  padding-left: 27px;
+    color: green;
+    float: right;
+    padding-left: 27px;
 }
 
 .descricao {
-  clear: both;
+    clear: both;
 }
 
 .grande-broto {
-  float: right;
-  padding-left: 20px;
+    float: right;
+    padding-left: 20px;
 }

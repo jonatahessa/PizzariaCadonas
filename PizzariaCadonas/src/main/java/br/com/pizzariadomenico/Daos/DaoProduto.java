@@ -38,6 +38,7 @@ public class DaoProduto {
                 pizza.setPrecoBroto(result.getString("Broto"));
                 pizza.setAtivo(result.getString("Ativo"));
                 pizza.setTipo(result.getString("Tipo"));
+                pizza.setSubtipo(result.getString("Subtipo"));
                 listaPizza.add(pizza);
             }
         } finally {
@@ -72,8 +73,8 @@ public class DaoProduto {
     public static void inserir(Produto pizza)
             throws SQLException, Exception {
 
-        String sql = "INSERT INTO tb_produto (Nome, Descricao, Preco, Broto, Ativo, Tipo) "
-                + "VALUES (?, ?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO tb_produto (Nome, Descricao, Preco, Broto, Ativo, Tipo, Subtipo) "
+                + "VALUES (?, ?, ?, ?, ?, ?, ?)";
         Connection connection = null;
         PreparedStatement statement = null;
         try {
@@ -86,6 +87,7 @@ public class DaoProduto {
             statement.setString(4, pizza.getPrecoBroto());
             statement.setString(5, "SIM");
             statement.setString(6, pizza.getTipo());
+            statement.setString(7, pizza.getSubtipo());
             System.out.println(statement.toString());
 
             System.out.println("Executando COMANDO SQL: " + sql);
@@ -154,6 +156,7 @@ public class DaoProduto {
                 + "Preco = ?, "
                 + "Broto = ?, "
                 + "Tipo = ?, "
+                + "Subtipo = ?, "
                 + "Ativo = ? "
                 + "WHERE ID = ?;";
 
@@ -168,8 +171,9 @@ public class DaoProduto {
             statement.setString(3, pizza.getPreco());
             statement.setString(4, pizza.getPrecoBroto());
             statement.setString(5, pizza.getTipo());
-            statement.setString(6, pizza.getAtivo());
-            statement.setInt(7, pizza.getCodigo());
+            statement.setString(6, pizza.getSubtipo());
+            statement.setString(7, pizza.getAtivo());
+            statement.setInt(8, pizza.getCodigo());
             System.out.println(statement.toString());
 
             System.out.println("Executando COMANDO SQL: " + sql);
@@ -207,6 +211,7 @@ public class DaoProduto {
             produto.setPrecoBroto(result.getString("BROTO"));
             produto.setAtivo(result.getString("ATIVO"));
             produto.setTipo(result.getString("TIPO"));
+            produto.setSubtipo(result.getString("SUBTIPO"));
         }
 
         return produto;

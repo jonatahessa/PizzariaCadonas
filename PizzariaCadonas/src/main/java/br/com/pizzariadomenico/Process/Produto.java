@@ -18,6 +18,7 @@ public class Produto {
     private String precoBroto;
     private String ativo;
     private String tipo;
+    private String subtipo;
 
     public int getCodigo() {
         return codigo;
@@ -75,4 +76,11 @@ public class Produto {
         this.tipo = tipo;
     }
 
+    public String getSubtipo() {
+        return subtipo;
+    }
+
+    public void setSubtipo(String subtipo) {
+        this.subtipo = subtipo;
+    }
 }

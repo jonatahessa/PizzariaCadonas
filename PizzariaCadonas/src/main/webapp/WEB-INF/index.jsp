@@ -18,32 +18,32 @@
         <title>Pizzaria Modelo</title>
     </head>
     <body>
-      <section class="container-fluid">
-        <header id="menu-desktop" class="row menu-top justify-content-end">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 inside-header">
-                <nav>
-                    <a href="#section1"><strong>Home</strong></a>
-                    <a href="#section2"><strong>Promoções</strong></a>
-                    <a href="#section3"><strong>Cardápio</strong></a>
-                    <a href="#section4"><strong>Localização</strong></a>
-                    <a href="#section5"><strong>Contato</strong></a>
-                </nav>
-            </div>
-        </header>
+        <section class="container-fluid">
+            <header id="menu-desktop" class="row menu-top justify-content-end">
+                <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 inside-header">
+                    <nav>
+                        <a href="#section1"><strong>Home</strong></a>
+                        <a href="#section2"><strong>Pizza</strong></a>
+                        <a href="#section3"><strong>Pratos a la carte</strong></a>
+                        <a href="#section4"><strong>Localização</strong></a>
+                        <a href="#section5"><strong>Contato</strong></a>
+                    </nav>
+                </div>
+            </header>
 
 
-        <div id="menu-mobile" class="menu-top row">
-            <div class="dropleft">
-                <button class="btn menu-drop col-3 menu-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="./_imagens/menu-mobile.png" alt=""></button>
-                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#section1">Home</a>
-                    <a class="dropdown-item" href="#section2">Promoções</a>
-                    <a class="dropdown-item" href="#section3">Cardápio</a>
-                    <a class="dropdown-item" href="#section4">Localização</a>
-                    <a class="dropdown-item" href="#section5">Contato</a>
+            <div id="menu-mobile" class="menu-top row">
+                <div class="dropleft">
+                    <button class="btn menu-drop col-3 menu-button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="./_imagens/menu-mobile.png" alt=""></button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#section1">Home</a>
+                        <a class="dropdown-item" href="#section2">Pizza</a>
+                        <a class="dropdown-item" href="#section3">Pratos a la carte</a>
+                        <a class="dropdown-item" href="#section4">Localização</a>
+                        <a class="dropdown-item" href="#section5">Contato</a>
+                    </div>
                 </div>
             </div>
-        </div>
 
             <div id="inicio" class="row justify-content-center sessoes">
                 <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section1 padded">
@@ -54,8 +54,8 @@
                             <img class="img-fluid" src="./_imagens/pizzahome.jpg" alt="imagem de uma pizza">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <p>Tradicional na região, a <strong>PIZZARIA MODELO</strong> vem unindo a tradição da pizza com a sofisticação informal. E não para de crescer, evoluir, adotando sempre o lema: “Atender à expectativa dos clientes” como sinônimo de qualidade.</p>
-                            <p>Com investimento constante nas instalações, produtos e serviços, faz com que a <strong>PIZZARIA MODELO</strong> seja considerada um novo clássico na terra das pizzarias.</p>
+                            <p>Tradicional na região, a <strong>CADONAS PIZZARIA & RESTAURANTE</strong> vem unindo a tradição da pizza com a sofisticação informal. E não para de crescer, evoluir, adotando sempre o lema: “Atender acima da expectativa dos clientes” como sinônimo de qualidade.</p>
+                            <p>Com investimento constante nas instalações, produtos e serviços, faz com que a <strong>CADONAS PIZZARIA & RESTAURANTE</strong> seja considerada um clássico na terra das pizzarias.</p>
                             <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue sempre a ser: SERVIR PIZZAS COM CARINHO, DEDICAÇÃO E ALEGRIA.</p>
                         </div>
                     </div>
@@ -63,24 +63,8 @@
             </div>
 
             <div class="row justify-content-center">
-                <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section2 padded">
-                    <h1 class="fonte-lobster">Promoções</h1>
-                    <hr/>
-                    <c:forEach var="promocao" items="${promocoes}">
-                        <div class="row justify-content-center">
-                            <div class="paineis col-xs-12 col-sm-12 col-md-8 col-lg-6 border border-danger text-center">
-                                <h2 class="text-danger fonte-acme">${promocao.nome}</h2>
-                                <h3 class="text-dark fonte-acme">${promocao.descricao}</h3>
-                                <h2 class="text-success fonte-acme">${promocao.preco}</h2>
-                            </div>
-                        </div>
-                    </c:forEach>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-                <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3 padded">
-                    <h1 class="fonte-lobster">Cardápio</h1>
+                <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3 padded">
+                    <h1 class="fonte-lobster">Pizza</h1>
                     <hr/>
                     <div class="row justify-content-center">
                         <div class="col-xs-12 col-sm-12 col-lg-8">
@@ -100,12 +84,91 @@
                 </div>
             </div>
 
+            <div class="row painel-pratos justify-content-center">
+                <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3 padded">
+                    <h1 class="fonte-lobster">Pratos a la carte</h1>
+                    <hr/>
+                    <div class="menu-category list-group cardapio">
+                        <h2>Pratos do Dia</h2>
+                        <c:forEach var="dodia" items="${dosdias}">
+                            <div class="titulopreco">
+                                <h3>${dodia.nome}</h3>
+                                <p>${dodia.descricao}</p>
+                            </div>
+                        </c:forEach>
+                    </div>
+
+                    <div class="menu-category list-group cardapio">
+                        <h2>Massas</h2>
+                        <c:forEach var="massa" items="${massas}">
+                            <div class="titulopreco">
+                                <h3>${massa.nome}</h3>
+                            </div>
+                        </c:forEach>
+                    </div>
+
+                    <div class="menu-category list-group cardapio">
+                        <h2>Muquecas</h2>
+                        <c:forEach var="muqueca" items="${muquecas}">
+                            <div class="titulopreco">
+                                <h3>${muqueca.nome}</h3>
+                            </div>
+                        </c:forEach>
+                    </div>
+
+                    <div class="menu-category list-group cardapio">
+                        <h2>Peixada</h2>
+                        <c:forEach var="peixada" items="${peixadas}">
+                            <div class="titulopreco">
+                                <h3>${peixada.nome}</h3>
+                            </div>
+                        </c:forEach>
+                    </div>
+
+                    <div class="menu-category list-group cardapio">
+                        <h2>Carnes</h2>
+                        <c:forEach var="carne" items="${carnes}">
+                            <div class="titulopreco">
+                                <h3>${carne.nome}</h3>
+                            </div>
+                        </c:forEach>
+                    </div>
+
+                    <div class="menu-category list-group cardapio">
+                        <h2>Frangos</h2>
+                        <c:forEach var="frango" items="${frangos}">
+                            <div class="titulopreco">
+                                <h3>${frango.nome}</h3>
+                            </div>
+                        </c:forEach>
+                    </div>
+
+                    <div class="menu-category list-group cardapio">
+                        <h2>Carnes Assadas</h2>
+                        <c:forEach var="assada" items="${assadas}">
+                            <div class="titulopreco">
+                                <h3>${assada.nome}</h3>
+                            </div>
+                        </c:forEach>
+                    </div>
+
+                    <div class="menu-category list-group cardapio">
+                        <h2>Todos os Dias</h2>
+                        <c:forEach var="tododia" items="${todosdias}">
+                            <div class="titulopreco">
+                                <h3>${tododia.nome}</h3>
+                            </div>
+                        </c:forEach>
+                    </div>
+                </div>
+            </div>
+
             <div class="row justify-content-center">
                 <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section4 padded">
                     <h1 class="fonte-lobster">Localização</h1>
                     <hr/>
-                    <h4 class="text-center">Rua Dr. Abelardo Vergueiro Cesar, 132 - Vila Alexandria, São Paulo - SP</h4>
-                    <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5021.877653908174!2d-46.67106914488145!3d-23.638162945045554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9946459dfceec7f3!2sPizzaria+Donatello!5e0!3m2!1spt-BR!2sbr!4v1520085393652" height="500px;" allowfullscreen></iframe>
+                    <h4 class="text-center">Av. Cupecê, 1185 - Jardim Prudência, São Paulo - SP</h4>
+                    <iframe class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d543.2591949763594!2d-46.669925939011385!3d-23.654575093106885!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a9fed0d3bd3%3A0x2b8d4f8ef0f93247!2sCadonas+Restaurante+e+Pizzaria!5e0!3m2!1spt-BR!2sbr!4v1529154604002" height="450" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -115,16 +178,18 @@
                     <hr/>
                     <div class="row justify-content-center">
                         <div class="col-12">
-                            <h2 class="text-center display-4">
-                                <a class="text-dark" href="tel:01150316244"><strong>5031-6244</strong></a><br/>
-                                <a class="text-dark" href="tel:01150319484"><strong>5031-9484</strong></a><br/>
-                                <a class="text-dark" href="tel:011982969045"><strong>98296-9045</strong></a>
-                                <img class="col-1" src="./_imagens/whatsapp.png" alt="whatsapp">
-                            </h2>
-                            <h3 class="text-center">Horário de funcionamento</h3>
-                            <h4 class="text-center">Domingo a Quinta das 18:00h às 23:30h</h4>
-                            <h4 class="text-center">Sexta e Sábado das 18:00h às 00:00h</h4>
-                            <p class="text-center">Copyright (c) Pizzaria Modelo Copyright Holder All Rights Reserved.</p>
+                            <div class="text-center display-4">
+                                <h2 class="display-4"><strong>5563-6556</strong></h2>
+                                <a class="btn btn-success col-xs-12 col-sm-12 Pizza col-lg-6" href="tel:01155636556"><h2>Ligar</h2></a>
+                                <h2 class="display-4"><strong>5564-6612</strong></h2>
+                                <a class="btn btn-success col-xs-12 col-sm-12 Pizza col-lg-6" href="tel:01155646612"><h2>Ligar</h2></a>
+                            </div>
+                            <h3 class="text-center">Horários de funcionamento</h3>
+                            <h3 class="text-center">Restaurante</h3>
+                            <h4 class="text-center">Segunda a Sábado das 11:00h às 15:00h</h4>
+                            <h3 class="text-center">Pizzaria</h3>
+                            <h4 class="text-center">Terça a Domingo das 18:00h às 23:00h</h4>
+                            <p class="text-center">Copyright (c) Cadonas Pizzaria & Restaurante Copyright Holder All Rights Reserved.</p>
                             <p class="text-center">Developed by Jonata Hessa</p>
                         </div>
                     </div>
@@ -182,7 +247,7 @@
                         <c:forEach var="doce" items="${doces}">
                             <li class="menu-category titulopreco">
                                 <div class="">
-                                    <p class="titulo"><strong>${doce.codigo - 78} - ${doce.nome}</strong></p>
+                                    <p class="titulo"><strong>${doce.codigo} - ${doce.nome}</strong></p>
                                     <p class="preco"><strong>${doce.preco}</strong></p>
                                     <p class="preco"><strong>${doce.precoBroto}</strong></p>
                                     <p class="descricao">${doce.descricao}</p>
