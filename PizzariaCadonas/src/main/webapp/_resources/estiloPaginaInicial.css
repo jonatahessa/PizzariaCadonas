@@ -6,7 +6,27 @@ body {
     background-size: cover;
 }
 
+.colunas-pratos {
+  margin: none;
+}
+
 @media (min-width: 770px) {
+
+  .painel-pratos {
+        -moz-column-width: 22em;
+        -webkit-column-width: 22em;
+        -moz-column-gap: 1em;
+        -webkit-column-gap: 1em;
+
+    }
+
+    .menu-category {
+        display: inline-block;
+        margin:  0.25rem;
+        padding:  1rem;
+        width:  100%;
+    }
+
 
     #menu-desktop {
         top: 0;
@@ -77,7 +97,7 @@ body {
       padding: 1rem;
       width: 100%;
   }
-  
+
     .alinha {
         text-align: center;
     }

@@ -50,10 +50,36 @@
                     <h1 class="fonte-lobster">Home</h1>
                     <hr/>
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                            <img class="img-fluid" src="./_imagens/pizzahome.jpg" alt="imagem de uma pizza">
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div id="carouselExampleIndicators" class="carousel slide carousel-margin col-12" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img class="d-block w-100" src="./_imagens/cadonas01.JPG" alt="First slide">
+                          </div>
+                          <div class="carousel-item">
+                              <img class="d-block w-100" src="./_imagens/cadonas02.jpg" alt="Second slide">
+                          </div>
+                          <div class="carousel-item">
+                              <img class="d-block w-100" src="./_imagens/cadonas03.jpg" alt="Third slide">
+                          </div>
+                      </div>
+
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                      </a>
+                  </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <p>Tradicional na região, a <strong>CADONAS PIZZARIA & RESTAURANTE</strong> vem unindo a tradição da pizza com a sofisticação informal. E não para de crescer, evoluir, adotando sempre o lema: “Atender acima da expectativa dos clientes” como sinônimo de qualidade.</p>
                             <p>Com investimento constante nas instalações, produtos e serviços, faz com que a <strong>CADONAS PIZZARIA & RESTAURANTE</strong> seja considerada um clássico na terra das pizzarias.</p>
                             <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue sempre a ser: SERVIR PIZZAS COM CARINHO, DEDICAÇÃO E ALEGRIA.</p>
