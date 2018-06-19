@@ -12,22 +12,6 @@ body {
 
 @media (min-width: 770px) {
 
-  .painel-pratos {
-        -moz-column-width: 22em;
-        -webkit-column-width: 22em;
-        -moz-column-gap: 1em;
-        -webkit-column-gap: 1em;
-
-    }
-
-    .menu-category {
-        display: inline-block;
-        margin:  0.25rem;
-        padding:  1rem;
-        width:  100%;
-    }
-
-
     #menu-desktop {
         top: 0;
         width: 100%;
@@ -82,21 +66,6 @@ body {
 }
 
 @media (max-width: 769px) {
-  *, *:before, *:after {box-sizing:  border-box !important;}
-
-  .painel-pratos {
-      -moz-column-width: 100em;
-      -webkit-column-width: 100em;
-      -moz-column-gap: 1em;
-      -webkit-column-gap: 1em;
-  }
-
-  .menu-category {
-      display: inline-block;
-      margin: 0.25rem;
-      padding: 1rem;
-      width: 100%;
-  }
 
     .alinha {
         text-align: center;
@@ -148,6 +117,13 @@ body {
 .backgrounded {
     background-color: #FFFFFF;
     opacity: 0.9;
+}
+
+.categorias {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .paineis {
