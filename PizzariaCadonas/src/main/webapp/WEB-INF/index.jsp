@@ -114,7 +114,7 @@
 
             <div class="row painel-pratos justify-content-center">
                 <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3 padded">
-                    <h1 class="fonte-lobster">Pratos a la carte</h1>
+                    <h1 class="f-onte-lobster">Pratos a la carte</h1>
                     <hr/>
                     <div class="row justify-content-center">
                         <div class="bg-dark border border-warning col-xs-12 col-sm-12 col-md-10 col-lg-8 categorias">
@@ -219,13 +219,13 @@
 
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="./_imagens/cadonas01.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="./_imagens/musica01.JPG" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="./_imagens/cadonas02.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="./_imagens/musica02.JPG" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="./_imagens/cadonas03.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="./_imagens/musica03.JPG" alt="Third slide">
                                 </div>
                             </div>
 
@@ -243,7 +243,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div id="section4" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section4 padded">
+                <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section4 padded">
                     <h1 class="fonte-lobster">Localização</h1>
                     <hr/>
                     <h4 class="text-center">Av. Cupecê, 1185 - Jardim Prudência, São Paulo - SP</h4>
@@ -252,7 +252,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div id="section5" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section5 padded">
+                <div id="section6" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section5 padded">
                     <h1 class="fonte-lobster">Contato</h1>
                     <hr/>
                     <div class="row justify-content-center">
@@ -264,9 +264,9 @@
                                 <a class="btn btn-success col-xs-12 col-sm-12 Pizza col-lg-6" href="tel:01155646612"><h2>Ligar</h2></a>
                             </div>
                             <h3 class="text-center">Horários de funcionamento</h3>
-                            <h3 class="text-center">Restaurante</h3>
+                            <h3 class="text-center text-danger"><strong>Restaurante</strong></h3>
                             <h4 class="text-center">Segunda a Sábado das 11:00h às 15:00h</h4>
-                            <h3 class="text-center">Pizzaria</h3>
+                            <h3 class="text-center text-danger"><strong>Pizzaria</strong></h3>
                             <h4 class="text-center">Terça a Domingo das 18:00h às 23:00h</h4>
                             <p class="text-center">Copyright (c) Cadonas Pizzaria & Restaurante Copyright Holder All Rights Reserved.</p>
                             <p class="text-center">Developed by Jonata Hessa</p>
