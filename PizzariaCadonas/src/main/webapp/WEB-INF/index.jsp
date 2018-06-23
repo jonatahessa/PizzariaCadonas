@@ -51,23 +51,27 @@
                 <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section1 padded">
                     <h1 class="fonte-lobster">Home</h1>
                     <hr/>
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div id="carouselExampleIndicators" class="carousel slide carousel-margin col-12" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                             </ol>
 
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="./_imagens/cadonas01.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="./_imagens/salao2.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="./_imagens/cadonas02.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="./_imagens/buffet6.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="./_imagens/cadonas03.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="./_imagens/buffet7.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="./_imagens/feijoada2.jpg" alt="Third slide">
                                 </div>
                             </div>
 
@@ -81,7 +85,16 @@
                             </a>
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="col-11 border border-danger margin fonte-lobster">
+                            <h1 class="text-center text-danger display-4">A Melhor Feijoada da Região!</h1>
+                        </div>
+
+                        <div class="col-11 border border-danger margin fonte-lobster">
+                            <h1 class="text-center text-danger display-4">Self-Service a Vontade e por Kilo!</h1>
+                        </div>
+
+
+                        <div class="col-12">
                             <p>Tradicional na região, a <strong>CADONAS PIZZARIA & RESTAURANTE</strong> vem unindo a tradição da pizza com a sofisticação informal. E não para de crescer, evoluir, adotando sempre o lema: “Atender acima da expectativa dos clientes” como sinônimo de qualidade.</p>
                             <p>Com investimento constante nas instalações, produtos e serviços, faz com que a <strong>CADONAS PIZZARIA & RESTAURANTE</strong> seja considerada um clássico na terra das pizzarias.</p>
                             <p>Todos os recursos são colocados à disposição dos funcionários, para que a filosofia desde a fundação continue sempre a ser: SERVIR PIZZAS COM CARINHO, DEDICAÇÃO E ALEGRIA.</p>
@@ -94,19 +107,41 @@
                 <div id="section2" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3 padded">
                     <h1 class="fonte-lobster">Pizza</h1>
                     <hr/>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center pizzas-botoes">
                         <div class="col-xs-12 col-sm-12 col-lg-8">
-                            <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-pizzas">
-                                <img class="col-5" src="./_imagens/pizzasalgada.png" alt="Foto de uma pizza salgada"><h3>Clique para abrir as Pizzas Salgadas</h3>
+                          <div class="row justify-content-center">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                              <img class="img-fluid" src="./_imagens/mussacalabresa.png" alt=""/>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mobile-none">
+                              <img class="img-fluid" src="./_imagens/rucula.png" alt=""/>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mobile-none">
+                              <img class="img-fluid" src="./_imagens/mussarelatomate.png" alt=""/>
+                            </div>
+                            <button type="button" class="col-10 botoes-cardapio btn btn-success" data-toggle="modal" data-target="#modal-pizzas">
+                                <h2 class="fonte-lobster">Pizzas Salgadas</h2>
                             </button>
+                          </div>
                         </div>
                     </div>
 
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center pizzas-botoes">
                         <div class="col-xs-12 col-sm-12 col-lg-8">
-                            <button type="button" class="col-12 botoes-cardapio" data-toggle="modal" data-target="#modal-doces">
-                                <img class="col-5" src="./_imagens/pizzadoce.png" alt="Foto de uma pizza doce"><h3>Clique para abrir as Pizzas Doces</h3>
+                          <div class="row justify-content-center">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                              <img class="img-fluid" src="./_imagens/pizzadoce.png" alt=""/>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mobile-none">
+                              <img class="img-fluid" src="./_imagens/pizzadoce2.png" alt=""/>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 mobile-none">
+                              <img class="img-fluid" src="./_imagens/pizzadoce3.png" alt=""/>
+                            </div>
+                            <button type="button" class="col-10 botoes-cardapio btn btn-success" data-toggle="modal" data-target="#modal-pizzas">
+                                <h2 class="fonte-lobster">Pizzas Doces</h2>
                             </button>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -207,14 +242,15 @@
                     <hr/>
                     <div class="row">
                         <div class="col-12">
-                            <h1 class="text-center fonte-acme">Todas as Sextas e Sábados Música ao Vivo</h1>
+                            <h1 class="text-center fonte-acme text-danger fonte-lobster">Todas as Sextas e Sábados Música ao Vivo <br/>
+                                                              Moda de Viola e Sertanejo</h1>
                         </div>
 
-                        <div id="carouselExampleIndicators" class="carousel slide carousel-margin col-12" data-ride="carousel">
+                        <div id="carouselAoVivo" class="carousel slide carousel-margin col-12" data-ride="carousel">
                             <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselAoVivo" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselAoVivo" data-slide-to="1"></li>
+                                <li data-target="#carouselAoVivo" data-slide-to="2"></li>
                             </ol>
 
                             <div class="carousel-inner">
@@ -229,11 +265,11 @@
                                 </div>
                             </div>
 
-                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carouselAoVivo" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
                             </a>
-                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#carouselAoVivo" role="button" data-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>

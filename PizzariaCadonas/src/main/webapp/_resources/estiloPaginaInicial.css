@@ -90,6 +90,10 @@ body {
         margin: 10px;
         background-color: #FFFFFF;
     }
+
+    .mobile-none {
+      display: none;
+    }
 }
 
 .botoes-cardapio {
@@ -157,4 +161,13 @@ body {
 .grande-broto {
     float: right;
     padding-left: 20px;
+}
+
+.pizzas-botoes {
+  margin-top: 80px;
+}
+
+.margin {
+  margin: 30px;
+  padding: 20px;
 }
