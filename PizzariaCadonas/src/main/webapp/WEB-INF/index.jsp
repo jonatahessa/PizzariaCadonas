@@ -15,7 +15,7 @@
         <script src='//production-assets.codepen.io/assets/common/stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js'></script>
         <link href="https://fonts.googleapis.com/css?family=Acme|Lobster" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
-        <title>Pizzaria Modelo</title>
+        <title>Cadonas Pizzaria & Restaurante</title>
     </head>
     <body>
         <section class="container-fluid">
@@ -149,7 +149,7 @@
 
             <div class="row painel-pratos justify-content-center">
                 <div id="section3" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section3 padded">
-                    <h1 class="f-onte-lobster">Pratos a la carte</h1>
+                    <h1 class="fonte-lobster">Pratos a la carte</h1>
                     <hr/>
                     <div class="row justify-content-center">
                         <div class="bg-dark border border-warning col-xs-12 col-sm-12 col-md-10 col-lg-8 categorias">
@@ -301,9 +301,11 @@
                             </div>
                             <h3 class="text-center">Horários de funcionamento</h3>
                             <h3 class="text-center text-danger"><strong>Restaurante</strong></h3>
-                            <h4 class="text-center">Segunda a Sábado das 11:00h às 15:00h</h4>
+                            <h4 class="text-center">Segunda a Sábado das 11h às 15h</h4>
                             <h3 class="text-center text-danger"><strong>Pizzaria</strong></h3>
-                            <h4 class="text-center">Terça a Domingo das 18:00h às 23:00h</h4>
+                            <h4 class="text-center">Terça a Quinta das 18h às 23h</h4>
+                            <h4 class="text-center">Sextas e Sábados das 18h às 0h</h4>
+                            <h4 class="text-center">Entregas até às 23h20</h4>
                             <p class="text-center">Copyright (c) Cadonas Pizzaria & Restaurante Copyright Holder All Rights Reserved.</p>
                             <p class="text-center">Developed by Jonata Hessa</p>
                         </div>
