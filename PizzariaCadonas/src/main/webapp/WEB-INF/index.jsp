@@ -303,7 +303,7 @@
                             <h3 class="text-center text-danger"><strong>Restaurante</strong></h3>
                             <h4 class="text-center">Segunda a Sábado das 11h às 15h</h4>
                             <h3 class="text-center text-danger"><strong>Pizzaria</strong></h3>
-                            <h4 class="text-center">Terça a Quinta das 18h às 23h</h4>
+                            <h4 class="text-center">Terça a Quinta e Domingos das 18h às 23h</h4>
                             <h4 class="text-center">Sextas e Sábados das 18h às 0h</h4>
                             <h4 class="text-center">Entregas até às 23h20</h4>
                             <p class="text-center">Copyright (c) Cadonas Pizzaria & Restaurante Copyright Holder All Rights Reserved.</p>
