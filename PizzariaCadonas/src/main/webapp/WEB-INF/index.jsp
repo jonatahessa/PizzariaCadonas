@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="./_resources/estiloPaginaInicial.css">
+        <link rel="stylesheet" href="./_resources/estiloPaginaInicial0708.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
@@ -51,6 +51,12 @@
                 <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section1 padded">
                     <h1 class="fonte-lobster">Home</h1>
                     <hr/>
+                    <div class="row justify-content-center">
+                      <div id="areaPromo" class="col-11 border border-warning">
+                        <p class="text-danger text-center">Neste domingo dia 12/08 teremos um  almoço especial do dia dos pais na <strong>CADONAS PIZZARIA & RESTAURANTE</strong>!<br/>
+                            Não Percam!</p>
+                      </div>
+                    </div>
                     <div class="row justify-content-center">
                         <div id="carouselExampleIndicators" class="carousel slide carousel-margin col-12" data-ride="carousel">
                             <ol class="carousel-indicators">

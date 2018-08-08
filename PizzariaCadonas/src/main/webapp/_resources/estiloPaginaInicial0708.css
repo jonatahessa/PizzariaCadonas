@@ -6,6 +6,11 @@ body {
     background-size: cover;
 }
 
+#areaPromo {
+  font-size: 2em;
+  margin: 30px;
+}
+
 .colunas-pratos {
   margin: none;
 }
