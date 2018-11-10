@@ -51,12 +51,12 @@
                 <div id="section1" class="col-xs-12 col-sm-12 col-md-10 col-lg-8 backgrounded section1 padded">
                     <h1 class="fonte-lobster">Home</h1>
                     <hr/>
-                    <div class="row justify-content-center">
+                    <%-- <div class="row justify-content-center">
                       <div id="areaPromo" class="col-11 border border-warning">
                         <p class="text-danger text-center">Neste domingo dia 12/08 teremos um  almoço especial do dia dos pais na <strong>CADONAS PIZZARIA & RESTAURANTE</strong>!<br/>
                             Não Percam!</p>
                       </div>
-                    </div>
+                    </div> --%>
                     <div class="row justify-content-center">
                         <div id="carouselExampleIndicators" class="carousel slide carousel-margin col-12" data-ride="carousel">
                             <ol class="carousel-indicators">
